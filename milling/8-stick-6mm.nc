@@ -1,0 +1,191 @@
+G21
+G90
+G0 X0 Y0 Z6 F400
+;TRACE PATHS
+
+M3 S10000
+;
+;
+;remaining paths: 6
+;
+;
+G0 Z6
+G0 X50.00 Y6.50
+G0 Z0.2
+; depth cycle 0 (-0.70mm}
+G0 X50.00 Y6.50
+G1 Z-0.70 F20
+G1 X3.50 Y6.50 F50
+G1 Z-0.50 F20
+; depth cycle 1 (-1.40mm}
+G0 X50.00 Y6.50
+G1 Z-1.40 F20
+G1 X3.50 Y6.50 F50
+G1 Z-1.20 F20
+; depth cycle 2 (-2.10mm}
+G0 X50.00 Y6.50
+G1 Z-2.10 F20
+G1 X3.50 Y6.50 F50
+G1 Z-1.90 F20
+; depth cycle 3 (-2.80mm}
+G0 X50.00 Y6.50
+G1 Z-2.80 F20
+G1 X3.50 Y6.50 F50
+G1 Z-2.60 F20
+; depth cycle 4 (-3.50mm}
+G0 X50.00 Y6.50
+G1 Z-3.50 F20
+G1 X3.50 Y6.50 F50
+G1 Z-3.30 F20
+; depth cycle 5 (-4.20mm}
+G0 X50.00 Y6.50
+G1 Z-4.20 F20
+G1 X3.50 Y6.50 F50
+G1 Z-4.00 F20
+; depth cycle 6 (-4.90mm}
+G0 X50.00 Y6.50
+G1 Z-4.90 F20
+G1 X3.50 Y6.50 F50
+G1 Z-4.70 F20
+; depth cycle 7 (-5.60mm}
+G0 X50.00 Y6.50
+G1 Z-5.60 F20
+G1 X3.50 Y6.50 F50
+G1 Z-5.40 F20
+; depth cycle 8 (-6.30mm}
+G0 X50.00 Y6.50
+G1 Z-6.30 F20
+G1 X3.50 Y6.50 F50
+G1 Z-6.10 F20
+; depth cycle 9 (-7.00mm}
+G0 X50.00 Y6.50
+G1 Z-7.00 F20
+G1 X3.50 Y6.50 F50
+G1 Z-6.80 F20
+; depth cycle 10 (-7.70mm}
+G0 X50.00 Y6.50
+G1 Z-7.70 F20
+G1 X3.50 Y6.50 F50
+G1 Z-7.50 F20
+; depth cycle 11 (-8.40mm}
+G0 X50.00 Y6.50
+G1 Z-8.40 F20
+G1 X3.50 Y6.50 F50
+G1 Z-8.20 F20
+; depth cycle 12 (-9.10mm}
+G0 X50.00 Y6.50
+G1 Z-9.10 F20
+G1 X3.50 Y6.50 F50
+G1 Z-8.90 F20
+; depth cycle 13 (-9.80mm}
+G0 X50.00 Y6.50
+G1 Z-9.80 F20
+G1 X3.50 Y6.50 F50
+G1 Z-9.60 F20
+; depth cycle 14 (-10.30mm}
+G0 X50.00 Y6.50
+G1 Z-10.30 F20
+G1 X3.50 Y6.50 F50
+G1 Z-10.10 F20
+G0 Z6
+;
+;
+;remaining paths: 5
+;
+;
+G0 Z6
+G0 X3.50 Y3.50
+G0 Z0.2
+; depth cycle 0 (-0.70mm}
+G0 X3.50 Y3.50
+G1 Z-0.70 F20
+G1 X50.00 Y3.50 F50
+G1 Z-0.50 F20
+; depth cycle 1 (-1.40mm}
+G0 X3.50 Y3.50
+G1 Z-1.40 F20
+G1 X50.00 Y3.50 F50
+G1 Z-1.20 F20
+; depth cycle 2 (-2.10mm}
+G0 X3.50 Y3.50
+G1 Z-2.10 F20
+G1 X50.00 Y3.50 F50
+G1 Z-1.90 F20
+; depth cycle 3 (-2.80mm}
+G0 X3.50 Y3.50
+G1 Z-2.80 F20
+G1 X50.00 Y3.50 F50
+G1 Z-2.60 F20
+; depth cycle 4 (-3.50mm}
+G0 X3.50 Y3.50
+G1 Z-3.50 F20
+G1 X50.00 Y3.50 F50
+G1 Z-3.30 F20
+; depth cycle 5 (-4.20mm}
+G0 X3.50 Y3.50
+G1 Z-4.20 F20
+G1 X50.00 Y3.50 F50
+G1 Z-4.00 F20
+; depth cycle 6 (-4.90mm}
+G0 X3.50 Y3.50
+G1 Z-4.90 F20
+G1 X50.00 Y3.50 F50
+G1 Z-4.70 F20
+; depth cycle 7 (-5.60mm}
+G0 X3.50 Y3.50
+G1 Z-5.60 F20
+G1 X50.00 Y3.50 F50
+G1 Z-5.40 F20
+; depth cycle 8 (-6.30mm}
+G0 X3.50 Y3.50
+G1 Z-6.30 F20
+G1 X50.00 Y3.50 F50
+G1 Z-6.10 F20
+; depth cycle 9 (-7.00mm}
+G0 X3.50 Y3.50
+G1 Z-7.00 F20
+G1 X50.00 Y3.50 F50
+G1 Z-6.80 F20
+; depth cycle 10 (-7.70mm}
+G0 X3.50 Y3.50
+G1 Z-7.70 F20
+G1 X50.00 Y3.50 F50
+G1 Z-7.50 F20
+; depth cycle 11 (-8.40mm}
+G0 X3.50 Y3.50
+G1 Z-8.40 F20
+G1 X50.00 Y3.50 F50
+G1 Z-8.20 F20
+; depth cycle 12 (-9.10mm}
+G0 X3.50 Y3.50
+G1 Z-9.10 F20
+G1 X50.00 Y3.50 F50
+G1 Z-8.90 F20
+; depth cycle 13 (-9.80mm}
+G0 X3.50 Y3.50
+G1 Z-9.80 F20
+G1 X50.00 Y3.50 F50
+G1 Z-9.60 F20
+; depth cycle 14 (-10.50mm}
+G0 X3.50 Y3.50
+G1 Z-10.50 F20
+G1 X50.00 Y3.50 F50
+G1 Z-10.30 F20
+; depth cycle 15 (-11.20mm}
+G0 X3.50 Y3.50
+G1 Z-11.20 F20
+G1 X50.00 Y3.50 F50
+G1 Z-11.00 F20
+; depth cycle 16 (-11.90mm}
+G0 X3.50 Y3.50
+G1 Z-11.90 F20
+G1 X50.00 Y3.50 F50
+G1 Z-11.70 F20
+; depth cycle 17 (-12.00mm}
+G0 X3.50 Y3.50
+G1 Z-12.00 F20
+G1 X50.00 Y3.50 F50
+G1 Z-11.80 F20
+
+G0 Z6
+G0 X0 Y0
